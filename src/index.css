@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  height: 100%;
+}
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  height: 80vh;
+}
+
+form,
+.mensajes {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.mensajes {
+  text-align: center;
+}
+.resultado {
+  border: 2px solid #00b0d7;
+  padding: 3rem 0;
+}
+form label {
+  text-align: center;
+  font-size: 2rem;
+}
+input[type="submit"]:disabled {
+  opacity: 0.2;
+  color: black;
+}
+
+.error {
+  background-color: white;
+  border: 2px solid red;
+  padding: 0.5rem;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.resultado p {
+  margin: 0;
+}
+
+footer {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
